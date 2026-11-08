@@ -4,8 +4,7 @@
 
 A Discord bot that manages your **Google Tasks** and **Google Calendar** with slash commands, plus scheduled automations: recurring tasks, event reminders and a daily digest, all delivered by DM.
 
-Built with Node.js, TypeScript, discord.js, the Google APIs, SQLite and cron, and deployed on AWS EC2.
-
+Built with Node.js, TypeScript, discord.js, the Google APIs, SQLite and cron.
 ## Features
 
 - **Google Tasks CRUD**: add, list, complete, reopen, update and delete tasks.
@@ -94,7 +93,7 @@ In Discord, run `/google connect`, then `/settings timezone`, then try `/tasks a
 
 ## Deployment
 
-The bot runs 24/7 on an AWS EC2 instance under PM2. See **[docs/DEPLOY_AWS.md](docs/DEPLOY_AWS.md)**.
+To keep the bot online 24/7, you can host it on a server such as AWS EC2. See **[docs/DEPLOY_AWS.md](docs/DEPLOY_AWS.md)**.
 
 ## Security and privacy
 
